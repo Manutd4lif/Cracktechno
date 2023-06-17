@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto+Mono&family=Smythe&display=swap');
 
 body {font-family: Verdana, sans-serif;
-    background: url(./img/main_page_cosmos_img.jpg) center/cover;
+    background: url(./img/main_page_cosmos.jpg) center/cover;
     min-height: 100vh;
     color: #08865e;
 }
