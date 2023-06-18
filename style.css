@@ -20,8 +20,7 @@ h3 {color:#08865e;
     }
 
 /* Box */
-main {
-    height: 500px;
+main {min-height: 500px;
     width: 75%;
     background-color: #5252526e;
     margin: 0 auto;
@@ -38,4 +37,20 @@ h2{margin: 0;
 img{border-radius: 100px;
     padding: 15px;
     margin: 0;
+}
+
+/* Inner box */
+.flexbox {border: 1px solid #083a86;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.flexbox ul {padding: 0px;
+    display: flex;
+}
+
+.flexbox li {list-style: none;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
 }
