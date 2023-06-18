@@ -1,23 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto+Mono&family=Smythe&display=swap');
 
+/* Background */
 body {font-family: Verdana, sans-serif;
     background: url(./img/main_page_cosmos.jpg) center/cover;
     min-height: 100vh;
     color: #08865e;
 }
 
-    h1{text-align: center;
+/* Title and text */
+h1{text-align: center;
     font-size: 3rem;
     text-shadow: 4px 3px 1px #00000054;
     color: #08865e; 
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', Verdana;
     }
 
 h3 {color:#08865e;
+    font-family: 'Roboto Mono', Verdana;
     }
 
+/* Box */
 main {
     height: 500px;
     width: 75%;
     background-color: #5252526e;
+    margin: 0 auto;
+    border: 5px solid rgb(70, 61, 70);
+    border-radius: 55px;
+    box-shadow: 0 0 0 #00000054;
+    padding: 15px;
+}
+
+h2{margin: 0;
+}
+
+/* Image design */
+img{border-radius: 100px;
+    padding: 15px;
+    margin: 0;
 }
