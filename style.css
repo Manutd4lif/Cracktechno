@@ -47,6 +47,7 @@ img{border-radius: 100px;
 
 .flexbox ul {padding: 0px;
     display: flex;
+    justify-content: space-around ;
 }
 
 .flexbox li {list-style: none;
